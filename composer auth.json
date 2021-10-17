@@ -1,0 +1,20 @@
+{
+    "repositories": [
+        {
+            "type": "composer",
+            "url": "https://extremely:secret@repo.example.org"
+        }
+    ],
+    
+    "http-basic": {
+        "repo.example1.org": {
+            "username": "my-username1",
+            "password": "my-secret-password1"
+        },
+        "repo.example2.org": {
+            "username": "my-username2",
+            "password": "my-secret-password2"
+        }
+    }
+
+}

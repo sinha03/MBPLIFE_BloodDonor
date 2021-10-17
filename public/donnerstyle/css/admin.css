@@ -1,0 +1,52 @@
+.container-contact100 {
+  width: 100%;  
+  min-height: 100vh;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -moz-box;
+  display: -ms-flexbox;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  padding: 15px;
+   background: #ef3b3b; /* For browsers that do not support gradients */
+  background: linear-gradient(#ef3b3b, #373f4c);
+  position: relative;
+  z-index: 10;
+}
+.navbar {
+    min-height: 5.25rem;
+    background-color:#6b0909;
+}
+.navbar-brand, .navbar-tabs {
+    align-items: stretch;
+    display: flex;
+    flex-shrink: 0;
+    min-height: 5rem;
+}
+h1{
+	color:#4aefec;
+}
+.container {
+    flex-grow: 1;
+    left:1%;
+    margin-top:2%;
+    position: relative;
+    width: auto;
+    padding:40px 40px;
+    background-color:#4aefec;
+}
+.input{
+width:100%;
+min-height:30%;
+padding: 10px 10px;
+background-color: transparent;
+
+}
+.form-group{
+	margin:25px;
+}
+.button{
+left:27%;
+}
